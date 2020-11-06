@@ -3,7 +3,7 @@
 @section('title', 'Friends')
 
 @section('content')
-<form action="/friends/store" method="POST">
+<form action="/friends" method="POST">
 @csrf
 
   <div class="form-group">
