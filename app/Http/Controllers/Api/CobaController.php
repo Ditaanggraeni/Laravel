@@ -13,6 +13,7 @@ class CobaController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
     public function index()
     {
         $friends = Friends::orderBy('id', 'desc')->paginate(3);
