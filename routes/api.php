@@ -1,6 +1,5 @@
 <?php
 
-
 use App\Http\Controllers\Api\CobaController;
 use App\Http\Controllers\Api\GroupsController;
 use Illuminate\Http\Request;
